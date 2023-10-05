@@ -1,0 +1,80 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-family: sans-serif;
+}
+
+span
+{
+    color: red;
+}
+
+body
+{
+    width: 100vw;
+}
+
+label
+{
+    line-height: 32px;
+}
+
+input, select, textarea
+{
+    border: 1px solid rgb(197, 197, 197);
+    height: 40px;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+}
+
+input[type="email"]
+{
+    width: 505px;
+}
+
+select
+{
+    width: 505px;
+}
+
+form
+{
+    width: 700px;
+    margin-inline: auto;
+}
+
+label
+{
+    display: block;
+}
+
+textarea
+{
+    width: 505px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+:focus
+{
+    outline: 0px;
+}
+
+input[type="submit"]
+{
+    width: 505px;
+    background-color: #598f97;
+    color: white;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #243e9c;
+}

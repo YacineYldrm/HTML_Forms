@@ -1,0 +1,70 @@
+section
+{
+    display: flex;
+}
+
+.label-names
+{
+    padding-top: 8px;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 4px;
+    line-height: 22px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+input
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gender_selection
+{
+    display: flex;
+}
+
+select
+{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.language_selection
+{
+    display: flex;
+    margin-top: 8px;
+}
+
+.language_selection > p
+{
+    display: flex;
+    align-self: last baseline;
+}
+
+label[for="activity"]
+{
+    margin-top: 68px;
+}
+
+label[for="it"]
+{
+    margin-bottom: 0px;
+}
+
+.activity_selection
+{
+    display: flex;
+}
+
+.buttons
+{
+    display: flex;
+}

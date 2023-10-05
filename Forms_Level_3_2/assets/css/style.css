@@ -1,0 +1,94 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+section
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    background-color: #15362d;
+    width: 600px;
+    margin-inline: auto;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.forgot_password-link
+{
+
+    color: #247001;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: auto;
+}
+
+input
+{
+    background-color: #15362d;
+    width: 566px;
+    height: 40px;
+    color: rgb(171, 171, 171);
+    padding: 20px;
+}
+
+input[type="text"]
+{
+    width: 280px;
+}
+
+input[type="submit"]
+{
+    background-color: #3fba6a;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 70px;
+    letter-spacing: 4px;
+    padding: 0px;
+}
+
+.buttons-top > a > button
+{
+    width: 17.5rem;
+    height: 70px;
+    background-color: #15362d;
+    font-size: 18px;
+    color: white;
+}
+
+.button_focus > button.active_button
+{
+    /* Ich weiß, nicht schön gelöst.. aber ich habs nicht eingesehen, auf das button-Element verzichten zu müssen. Konnte allein mit dem Klassennamen im button-Element nicht den erwünschten Effekt erzielen. Daher dieser zusammengewurstete Selektor. Es gab scheinbar ein Specifity-Problem, dass ich mir nicht erklären kann.*/
+    background-color: #3fba6a;
+}
+
+.buttons-top > a > button:hover
+{
+    background-color: #247001;
+}
+
+
+

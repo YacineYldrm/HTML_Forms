@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+            <section>
+            <div class="label-names">
+                <label for="name">Name</label>
+                <label for="surname">Surname</label>
+                <label for="email">Email</label>
+                <label for="gender">Gender</label>
+                <label for="pictuer">Picture</label>
+                <label for="country">Country</label>
+                <label for="languages">Preferred languages</label>
+                <label for="activity">Field of activity</label>
+                <div class="buttons">
+                    <input type="submit" value="Submit">
+                    <a href="./index.html"><input type="button" value="Cancel"></a>
+                </div>
+            </div>
+            <div class="input-fields">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="surname" id="surname" placeholder="Surname">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <div class="gender_selection">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="divers">Divers</label>
+                    <input type="radio" name="gender" id="divers">
+                </div>
+                <input type="file" name="picture" id="picture">
+                
+                <select name="country" id="country">
+                    <option value="1">England</option>
+                    <option value="2">Germany</option>
+                    <option value="3">India</option>
+                    <option value="4">Turkey</option>
+                </select>
+                <div class="language_selection">
+                    <select name="languages" multiple size="4" id="languages">
+                        <option value="1">Css</option>
+                        <option value="2">React</option>
+                        <option value="3">JS</option>
+                        <option value="3">HTML</option>
+                        
+                    </select>
+                    <p>(To choose more than one use cmd key)</p>
+                </div>
+                <div class="activity_selection">
+                    <input type="checkbox" name="it" id="it">
+                    <label for="it">IT</label>
+                    <input type="checkbox" name="design" id="design">
+                    <label for="it">Design</label>
+                    <input type="checkbox" name="other" id="other">
+                    <label for="it">Other</label>
+                </div>
+            </div>
+        </section>
+        </fieldset>
+    </form>
+</body>
+</html>
